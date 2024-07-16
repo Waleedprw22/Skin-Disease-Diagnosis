@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Images for Disease</title>
+</head>
+<body>
+    <h2>{{ disease_name }}</h2>
+    {% for path in image_paths %}
+        <img src="{{ url_for('static', filename=path) }}" alt="Image">
+    {% endfor %}
+</body>
+</html>
