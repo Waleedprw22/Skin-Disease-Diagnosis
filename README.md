@@ -54,22 +54,19 @@ Images from the app are not shown due to their graphic nature but I do invite yo
 
 ## Directory Structure
 
-\`\`\`
 project/
 │
-├── app.py                    # Flask application entry point
-├── static/                   # Directory for static assets (images)
-│   ├── disease1/
-│   ├── disease2/
-│   └── ...
-├── templates/                # HTML templates
-│   ├── index.html            # Main page template
-│   └── images.html           # Template for displaying images by disease
-├── Environment.py            # Configuration file or module
-├── model.pth                 # Pre-trained model weights (if applicable)
-└── README.md                 # Project documentation
-\`\`\`
-
+├── app.py # Flask application entry point
+├── static/ # Directory for static assets (images)
+│ ├── disease1/
+│ ├── disease2/
+│ └── ...
+├── templates/ # HTML templates
+│ ├── index.html # Main page template
+│ └── images.html # Template for displaying images by disease
+├── Environment.py # Configuration file or module
+├── model.pth # Pre-trained model weights (if applicable)
+└── README.md # Project documentation
 ## Notes
 
 - Ensure that the model (\`model.pth\` or similar) and any required configurations (\`Environment.py\`) are correctly set up before running the application.
